@@ -1,0 +1,60 @@
+/* src/components/HomePage.module.css */
+.header {
+    background-color: #61daaf;
+    color: #fff;
+    padding: 20px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar {
+    background-color: #f4f4f4;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li {
+    display: inline;
+  }
+  
+  .navbar ul li:not(:last-child) {
+    margin-right: 20px;
+  }
+  
+  .navLink {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border: 1px solid #2c5167;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .navLink:hover {
+    background-color: #215277;
+  }
+  
+ /* src/components/HomePage.module.css */
+.banner {
+    background-image: url('homebackground-image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 50vh; /* 50% of the viewport height */
+  }
+  
+  @media (max-width: 768px) {
+    .banner {
+      height: 30vh; /* Adjusted height for smaller screens */
+    }
+  }
+  
+ 
