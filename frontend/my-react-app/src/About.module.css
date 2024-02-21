@@ -1,0 +1,25 @@
+/* src/components/AboutPage.module.css */
+.aboutContainer {
+    padding: 20px;
+    text-align: left;
+  }
+  
+  .aboutContainer h1 {
+    color: #333;
+    font-size: 24px;
+  }
+  
+  .aboutContainer p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  .heading {
+    margin-bottom: 10px; /* Add margin to separate the heading from the underscore */
+  }
+  
+  .underline {
+    width: 240px; /* Adjust the width of the underscore */
+    height: 3px; /* Adjust the height of the underscore */
+    background-color: #000; /* Set the color of the underscore */
+  }
